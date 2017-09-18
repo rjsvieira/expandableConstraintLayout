@@ -7,6 +7,11 @@
 <img src="images/expconslayout.gif">
 
 
+<h2> Description </h2>
+
+The ExpandableConstraintLayout presents itself as a wrapper around Google's ConstraintLayout with the small feature of toggling (expansion/collapse).
+This class was implemented based on @cmfsotelo's idea of ExpandableLinearLayout
+
 <h2> Project Inclusion </h2>
 Include it in your project
 
