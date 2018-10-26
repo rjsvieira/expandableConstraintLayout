@@ -20,7 +20,7 @@ import rjsv.expconslayout.enumerators.ExpandableConstraintLayoutStatus.*
  * @version $Revision : 1 $
  */
 
-class ExpandableConstraintLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : ConstraintLayout(context, attrs, defStyleAttr) {
+class ExpandableConstraintLayout constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : ConstraintLayout(context, attrs, defStyleAttr) {
 
     var animationDuration: Int = 0
     private val isVertical: Boolean
