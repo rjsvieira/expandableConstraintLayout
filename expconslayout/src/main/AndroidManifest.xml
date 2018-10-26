@@ -3,7 +3,8 @@
 
     <application
         android:allowBackup="true"
-        android:label="ExpandableConstraintLayout"
-        android:supportsRtl="true" />
+        android:supportsRtl="true">
+
+    </application>
 
 </manifest>
