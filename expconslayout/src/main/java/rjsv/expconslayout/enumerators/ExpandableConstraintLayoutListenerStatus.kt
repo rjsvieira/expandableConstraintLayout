@@ -1,13 +1,13 @@
-package rjsv.expconslayout.enumerators;
+package rjsv.expconslayout.enumerators
 
 /**
  * Description
  *
- * @author <a href="mailto:rvfts@hotmail.com"/>
+ * @author [](mailto:rvfts@hotmail.com)
  * @version $Revision : 1 $
  */
 
-public enum ExpandableConstraintLayoutListenerStatus {
+enum class ExpandableConstraintLayoutListenerStatus {
     PreOpen,
     PreClose,
     Opened,
