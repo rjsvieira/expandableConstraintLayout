@@ -30,7 +30,7 @@ allprojects {
 
 ```groovy
 dependencies {
-  compile 'com.github.rjsvieira:rjsvieira:expandableConstraintLayout:1.0.0'
+  compile 'com.github.rjsvieira:expandableConstraintLayout:1.0.0'
 }
 ```
 
