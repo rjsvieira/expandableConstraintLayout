@@ -1,1 +1,9 @@
-<manifest package="rjsv.expconslayout"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rjsv.expconslayout">
+
+    <application
+        android:allowBackup="true"
+        android:label="ExpandableConstraintLayout"
+        android:supportsRtl="true" />
+
+</manifest>
