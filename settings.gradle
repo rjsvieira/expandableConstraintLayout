@@ -1,2 +1,1 @@
 include ':expconslayout'
-rootProject.name = 'artifact'
