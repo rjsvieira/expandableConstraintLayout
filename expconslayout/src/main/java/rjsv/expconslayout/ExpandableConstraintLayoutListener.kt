@@ -1,43 +1,43 @@
-package rjsv.expconslayout;
+package rjsv.expconslayout
 
-import rjsv.expconslayout.enumerators.ExpandableConstraintLayoutStatus;
+import rjsv.expconslayout.enumerators.ExpandableConstraintLayoutStatus
 
 /**
- * @author <a href="mailto:rvfts@hotmail.com"/>
+ * @author [](mailto:rvfts@hotmail.com)
  * @version $Revision : 1 $
  */
 
-public interface ExpandableConstraintLayoutListener {
+interface ExpandableConstraintLayoutListener {
     /**
      * Notifies the start of the animation.
      * Sync from android.animation.Animator.AnimatorListener.onAnimationStart(Animator animation)
      */
-    void onAnimationStart(ExpandableConstraintLayoutStatus status);
+    fun onAnimationStart(status: ExpandableConstraintLayoutStatus)
 
     /**
      * Notifies the end of the animation.
      * Sync from android.animation.Animator.AnimatorListener.onAnimationEnd(Animator animation)
      */
-    void onAnimationEnd(ExpandableConstraintLayoutStatus status);
+    fun onAnimationEnd(status: ExpandableConstraintLayoutStatus)
 
     /**
      * Notifies the layout is going to open.
      */
-    void onPreOpen();
+    fun onPreOpen()
 
     /**
      * Notifies the layout is going to equal close size.
      */
-    void onPreClose();
+    fun onPreClose()
 
     /**
      * Notifies the layout opened.
      */
-    void onOpened();
+    fun onOpened()
 
     /**
      * Notifies the layout size equal closed size.
      */
-    void onClosed();
+    fun onClosed()
 
 }
